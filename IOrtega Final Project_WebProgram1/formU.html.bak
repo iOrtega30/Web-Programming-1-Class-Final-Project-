@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Isaac's Baseball Tryouts Non-Validated Form </title>
+<link rel="stylesheet" href="style2.css">
+</head>
+
+<body style="background-color:#2A282B">
+
+	<form name="BaseballForm" style="background-color:#ffffff;width:55%;margin-left:23%;max-width:100;padding-bottom:5%">
+		<!-- HEADING -->
+		<h1 id="top" style="font-family:Calibri;text-align:center;background-color:#7529f6;background-size:100% 350%;padding-bottom:4%;color:white;padding-top:3%">Isaac's Baseball Team Tryout Form</h1>
+		
+		<!-- FIRST AND LAST NAME -->
+		<p style="">
+			<h4 id="name" style="font-family:Calibri;font-size:20px;margin-bottom:-1%;padding-left:2%">Name:</h4> <br>
+			<font face="Calibri">
+				<input type="text" name="first" size="10" style=" border: 1px solid black;background-color:#e7e9f2;margin-left:2%;padding:.5% 0 .5% 1%"> 
+				<input type="text" name="last" size="15" style="border: 1px solid black;background-color:#e7e9f2;padding:.5% 0 .5% 1%"> <br>
+				&nbsp; &nbsp; First <span style="size:1px;color:red">*</span> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; Last <span style="size:1px;color:red">*</span> 
+			</font>
+		</p>
+		
+		<!-- EMAIL -->
+		<p>
+			<h4 style="font-family:Calibri;font-size:20px;margin-bottom:-1%;padding-left:2%">Email <span style="color:red">*</span> :</h4> <br>
+			<font face="Calibri">
+				<input type="text" name="email" size="40" style="border: 1px solid black;background-color:#e7e9f2;margin-left:2%;padding:.5% 0 .5% 1%">
+			</font>
+		</p>
+		
+		<!-- PHONE NUMBER -->
+		<p>
+			<h4 style="font-family:Calibri;font-size:20px;margin-bottom:-1%;padding-left:2%">Phone Number <span style="size:1px;color:red">*</span> :</h4> <br>
+			<font face="Calibri">
+				<input type="text" name="phone" size="15" maxlength="10" style="border: 1px solid black;background-color:#e7e9f2;margin-left:2%;padding:.5% 0 .5% 1%">
+			</font>
+		</p>
+		
+		<!-- BIRTHDAY -->
+		<p>
+		<h4 style="font-family:Calibri;font-size:20px;margin-bottom:-1%;margin-left:2%">Date of Birth:</h4> <br>
+		<font face="Calibri">
+			<select id="month" style="margin-left:2%;padding:.5% 0 .5% 0;background-color:#e7e9f2">
+				<option value="blank" selected></option>
+				<option value="January" >January</option>
+				<option value="Febuary" >Febuary</option>
+				<option value="March" >March</option>
+				<option value="April" >April</option>
+				<option value="May" >May</option>
+				<option value="June" >June</option>
+				<option value="July" >July</option>
+				<option value="August" >August</option>
+				<option value="September" >September</option>
+				<option value="October" >October</option>
+				<option value="November" >November</option>
+				<option value="December" >December</option>
+			</select>
+			
+			<select name="day" style="margin-left:1%;padding:.3% 0 .3% 0;background-color:#e7e9f2">
+				<option value="blank" selected></option>
+				<option value="1" >1</option>
+				<option value="2" >2</option>
+				<option value="3" >3</option>
+				<option value="4" >4</option>
+				<option value="5" >5</option>
+				<option value="6" >6</option>
+				<option value="7" >7</option>
+				<option value="8" >8</option>
+				<option value="9" >9</option>
+				<option value="10" >10</option>
+				<option value="11" >11</option>
+				<option value="12" >12</option>
+				<option value="13" >13</option>
+				<option value="14" >14</option>
+				<option value="15" >15</option>
+				<option value="16" >16</option>
+				<option value="17" >17</option>
+				<option value="18" >18</option>
+				<option value="19" >19</option>
+				<option value="20" >20</option>
+				<option value="21" >21</option>
+				<option value="22" >22</option>
+				<option value="23" >23</option>
+				<option value="24" >24</option>
+				<option value="25" >25</option>
+				<option value="26" >26</option>
+				<option value="27" >27</option>
+				<option value="28" >28</option>
+				<option value="29" >29</option>
+				<option value="30" >30</option>
+				<option value="31" >31</option>
+			</select>
+		
+			<input type="text" name="year" size="4" maxLength="4" style="border: 1px solid black;margin-left:1%;padding:.4% 0 .4% 1%;background-color:#e7e9f2"/><br>
+			 &nbsp;&nbsp;&nbsp; Month<span style="size:1px;color:red">*</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Day<span style="size:1px;color:red">*</span>&nbsp;&nbsp;&nbsp;&nbsp Year<span style="size:1px;color:red">*</span>
+		</font>
+		</p>
+		
+		
+		<!-- HEIGHT AND WEIGHT -->
+		<p>
+			<h4 style="font-family:Calibri;font-size:20px;margin-bottom:-1%;padding-left:2%">Height and Weight:</h4> <br>
+			<font face="Calibri">
+				<input type="text" name="heightFT" size="1" maxlength="1" style="border: 1px solid black;background-color:#e7e9f2;margin-left:2%;padding:.5% 0 .5% 1%" placeholder="ft"> '
+				<input type="text" name="heightIN" size="1" maxlength="2" style="border: 1px solid black;background-color:#e7e9f2;padding:.5% 0 .5% 1%" placeholder="in">
+				<input type="text" name="weight" size="5" maxlength="3" style="border: 1px solid black;background-color:#e7e9f2;margin-left:2%;padding:.5% 0 .5% 1%"> <br>
+			&nbsp; &nbsp;	Height<span style="size:1px;color:red">*</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;Weight <span style="size:1px;color:red">*</span>
+			</font>
+		</p>
+		
+		<!-- THROWING HAND -->
+		<p>
+			<h4 style="font-family:Calibri;font-size:20px;margin-bottom:-1%;padding-left:2%">Throwing Hand <span style="size:1px;color:red">*</span> :</h4> <br>
+			<font face="Calibri">
+				<input name="hand" type="radio" style="margin-left:2%"/> Right 
+				<input name="hand" type="radio"/> Left
+			</font>
+		</p>
+		
+		<!-- BATTING SIDE -->
+		<p>
+			<h4 style="font-family:Calibri;font-size:20px;margin-bottom:-1%;padding-left:2%">Batting Side <span style="size:1px;color:red">*</span> :</h4> <br>
+			<font face="Calibri">
+				<input name="bats" type="radio" style="margin-left:2%"/> Right 
+				<input name="bats" type="radio"/> Left
+				<input name="bats" type="radio"/> Switch
+			</font>
+		</p>
+		
+		<!-- POSITIONS -->
+		<p>
+			<h4 style="font-family:Calibri;font-size:20px;margin-bottom:-1%;padding-left:2%">Position Trying out For <span style="size:1px;color:red">*</span> :</h4> <br>
+			<font face="Calibri" size="4" >
+				<input name="position" type="checkbox" style="margin-left:2%">Pitcher
+			    <input name="position" type="checkbox">Catcher
+				<input name="position" type="checkbox">First Base<br>
+				<input name="position" type="checkbox"style="margin-left:2%">Second Base
+			    <input name="position" type="checkbox">Third Base
+			    <input name="position" type="checkbox">Short Stop<br>
+				<input name="position" type="checkbox" style="margin-left:2%">Right Field
+				<input name="position" type="checkbox">Center Field
+				<input name="position" type="checkbox">Left Field
+				<input name="position" type="checkbox">Any
+			</font>
+		</p>
+		
+		<!-- UNIFORM MAILING ADDRESS-->
+		<p>
+		<p style="padding-left:2%;padding-top:2%;font-family:Calibri">Enter your preferred Uniform mailing address <span style="size:1px;color:red">*</span></p>
+		<br>
+		<font face="Calibri" style="padding-left:2%">
+		
+		<div style="padding-left:2%;margin-top:-4%;max-width:100%">
+		Street Address (Include apartment number if you live in an apartment) <span style="size:1px;color:red">*</span>
+		 <br>
+		<input name="st" size="89.5" style="border: 1px solid black;background-color:#e7e9f2;padding:.5% 0 .5% 1%;margin-top:1%;margin-bottom:2%">
+		<br>
+		City <span style="size:1px;color:red">*</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		State <span style="size:1px;color:red">*</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Zip <span style="size:1px;color:red">*</span> 
+		<input name="city" size="40" style="border: 1px solid black;background-color:#e7e9f2;padding:.5% 0 .5% 1%;margin-top:1%">
+		<select name="state"  style="margin-left:3%;padding:.3% 0 .3% 0;background-color:#e7e9f2;width:25%" >
+					<option value="blank" selected></option>
+					<option value="AL">AL</option>
+                    <option value="AK">AK</option>
+                    <option value="AZ">AZ</option>
+                    <option value="AR">AR</option>
+                    <option value="CA">CA</option>
+                    <option value="CO">CO</option>
+                    <option value="CT">CT</option>
+                    <option value="DE">DE</option>
+                    <option value="DC">DC</option>
+                    <option value="FL">FL</option>
+                    <option value="GA">GA</option>
+                    <option value="HI">HI</option>
+                    <option value="ID">ID</option>
+                    <option value="IL">IL</option>
+                    <option value="IN">IN</option>
+                    <option value="IA">IA</option>
+                    <option value="KS">KS</option>
+                    <option value="KY">KY</option>
+                    <option value="LA">LA</option>
+                    <option value="ME">ME</option>
+                    <option value="MD">MD</option>
+                    <option value="MA">MA</option>
+                    <option value="MI">MI</option>
+                    <option value="MN">MN</option>
+                    <option value="MS">MS</option>
+                    <option value="MO">MO</option>
+                    <option value="MT">MT</option>
+                    <option value="NE">NE</option>
+                    <option value="NV">NV</option>
+                    <option value="NH">NH</option>
+                    <option value="NJ">NJ</option>
+                    <option value="NM">NM</option>
+                    <option value="NY">NY</option>
+                    <option value="NC">NC</option>
+                    <option value="ND">ND</option>
+                    <option value="OH">OH</option>
+                    <option value="OK">OK</option>
+                    <option value="OR">OR</option>
+                    <option value="PA">PA</option>
+                    <option value="RI">RI</option>
+                    <option value="SC">SC</option>
+                    <option value="SD">SD</option>
+                    <option value="TN">TN</option>
+                    <option value="TX">TX</option>
+                    <option value="UT">UT</option>
+                    <option value="VT">VT</option>
+                    <option value="VA">VA</option>
+                    <option value="WA">WA</option>
+                    <option value="WV">WV</option>
+                    <option value="WI">WI</option>
+                    <option value="WY">WY</option>
+		</select>
+		<input name="zip" size="13" maxLength="5" style="border: 1px solid black;background-color:#e7e9f2;padding:.5% 0 .5% 1%;margin-top:1%;margin-left:1%">
+		</div>
+		</font>
+		</p>
+		
+		<!-- PASSWORD FOR PLAYER TO GET INTO FIELD -->
+		<p>
+			<p style="font-family:Calibri;color:red;margin-bottom:0%;padding-left:2%;text-align:center;margin-bottom:-2%;font-size:18px">
+			<strong>When arriving at the stadium it is mandatory for players to put in their<br> password at the front desk in order to be let onto the field.</strong></p> 
+			<br>
+			<h3 style="font-family:Calibri;color:red;margin-bottom:0%;padding-left:2%">
+			<strong>Please create and enter your password below :</strong>
+			</h3>
+			
+			<br>
+				
+			<font face="Calibri"; style="font-weight:bold;font-size:18px;padding-left:2%">
+				Password: <input type="password" name="password" maxLength="20" size="12" style="padding:.5% 0 .5% 1%;border: 1px solid black;background-color:#e7e9f2"/> 
+			</font>
+			<font face="Calibri">
+				(6 to 20 character limit)
+			</font>
+		</p>
+		
+		<p>
+		
+		<!-- ADDITIONAL COMMENTS (OPTIONAL) -->
+		<textarea rows="8" cols="50" name="comments" placeholder="Comments" style="margin-left:2%"></textarea>
+		
+		</p>
+		
+		<!-- SUBMIT AND CLEAR BUTTON -->
+		<div style="text-align: center">
+		<input type="button" name="submit" style="height:35px; width:650px;color:white; background-color:#7529f6;border-radius:4px;border: 1px solid #7529f6;"  value="Submit" > <br>
+		<p></p>
+		<input type="button" name="clear" style="height:35px; width:650px; color:white;background-color:#bd0c38;border-radius:4px;border: 1px solid #7529f6" value="Clear" >
+		<p></p>
+		<!--TOP OF FORM BUTTON -->
+		<button name="top" style="height:35px; width:650px; color:white;background-color:#0096FF;border-radius:4px;border: 1px solid #7529f6"><a href="#top"  style="text-decoration:none;color:white" >Top of form</a></h2></button>
+		</div>
+		<p style="text-align:center;font-family:Calibri;margin-bottom:-6%;padding-top:2%;padding-bottom:1%">To keep up with our latest news and player announcements, follow our social media below!<img src=""/></p>
+	</form>
+	
+	
+	
+	<!-- SOCIAL MEDIA ICONS TAKEN FROM Icons8 (link: https://icons8.com/icons/set/social-media--white) -->
+	<div style="text-align:center;padding-top:2%;padding-left:2%">
+	<a href="https://www.twitter.com/" target="new"><img src="images/twitter.png" width="30px" height="30px"  style="padding-right:2%"/></a>
+		<a href="https://www.instagram.com/" target="new"><img src="images/ig.png" width="30px" height="30px"/></a>
+		<a href="https://www.youtube.com/" target="new"><img src="images/yt.png" width="30px"  height="30px" style="padding-left:2%"/></a>
+		<a href="https://www.facebook.com/" target="new"><img src="images/fb.png" width="30px" height="30px" style="padding-left:2%"/></a>
+	</div>
+
+	<!-- LINKS TO HOME PAGE AND FORM TEMPLATE -->
+	<div class="links">
+		<a href="index.html" target="new">Click here to go back to home page</a><br>
+		<p style="padding-top:4px"></p>
+		<a href="formV.html" target="new">To access this validated form, click here</a>
+		</div>
+
+
+</body>
+</html>
